@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11123.170
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBinarySerialization", "SimpleBinarySerialization\SimpleBinarySerialization.csproj", "{ECAA2430-866C-467B-8B77-D9DAA629D8CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBinarySerialization.Benchmakrs", "SimpleBinarySerialization.Benchmakrs\SimpleBinarySerialization.Benchmakrs.csproj", "{E127D779-53D4-44F7-AB74-B2BF10CB3DEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ECAA2430-866C-467B-8B77-D9DAA629D8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECAA2430-866C-467B-8B77-D9DAA629D8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECAA2430-866C-467B-8B77-D9DAA629D8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E127D779-53D4-44F7-AB74-B2BF10CB3DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E127D779-53D4-44F7-AB74-B2BF10CB3DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E127D779-53D4-44F7-AB74-B2BF10CB3DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E127D779-53D4-44F7-AB74-B2BF10CB3DEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
